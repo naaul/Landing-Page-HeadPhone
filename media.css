@@ -1,0 +1,275 @@
+@media screen and (max-width:1100px){
+    #foto-fone{
+        height: 80%;
+        position: relative;
+        top: 19%;
+    }
+}
+
+
+
+
+
+
+@media screen and (max-width:500px) {
+    body{
+        background-image: url("./assets/background.png");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position-x: 30%;
+    }
+
+    #logo > svg{
+        height: 2.2rem;
+        margin-top: 0.5rem;
+        margin-right: 0;
+        width: 2.7rem;
+    }
+
+    #logo > h3{
+        font-family: 'Bebas Neue', sans-serif;
+        line-height: 14px;
+        font-size: 0.9rem;
+        margin-left: 0;
+    }
+
+    #ul-header{
+        display: flex;
+        flex-direction: row;
+        gap: .8rem;
+        align-items: center;
+        list-style-type: none;
+        margin-right: 10px;
+        padding-left: 0;
+    }
+
+    a{
+        text-decoration: none;
+        color: #1A2D48;
+        font-size: 0.8rem;
+        text-align: center;
+    }
+
+    #ul-header > button{
+        border: 0;
+        font-size: .9rem;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: white;
+        border: 2px solid #007AFF;
+        color: #007AFF;
+        padding: 6px;
+        border-radius: 14px;
+    }
+
+
+
+    #popup-div{
+        display: block;
+        position: fixed;
+        background-color: white;
+        border-radius: 20px;
+        left: 5%;
+        top: 20%;
+        width: 90%;
+        height: 490px;
+        z-index: 3;
+        box-shadow: 13px 13px 34px #3a3a3a;
+    }
+
+    #svg-div{
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        position: relative;
+        bottom: 2px;
+    
+    }
+
+    #svg-div > button{
+        display: flex;
+        border: 2px solid #1A2D48;
+        color: #1A2D48;
+        align-items: center;
+        border-radius: 13px;
+        cursor: pointer;
+        width: 42%;
+    }
+
+    #svg-div > button > p{
+        font-size: .7rem;
+    }
+
+    #svg-div > button > svg{
+        height: 3.5vh;
+        width: 3.5vh;
+        margin-right: 0.4rem;
+    }
+
+    #close-div > h2{
+        width: 70%;
+        text-align: center;
+        margin-left: 0;
+        line-height: 25px;
+    }
+
+    #popup-div > h3{
+        text-align: left;
+        margin-bottom: 5px;
+        margin-top: 50px;
+        margin-left: 2rem;
+        width: 80%;
+        line-height: 1.3rem;
+    }
+
+
+
+    #main-text > h1{
+        display: block;
+        position: absolute;
+        margin-top: 0;
+        right: 0;
+        left: 17%;
+        top: 13%;
+        font-size: 5rem;
+        max-width: 80%;
+        line-height: 4rem;
+    }
+
+
+    #foto-fone{
+        height: 50%;
+        position: relative;
+        top: 12%;
+    }
+
+    #main-text > h5{
+        font-size: 0.9rem;
+        color: #007AFF;
+        position: absolute;
+        display: none;
+    }
+
+    #main-text > h2{
+        font-size: 4rem;
+        margin-bottom: 0;
+        position: absolute;
+        bottom: 20%;
+        left: 0;
+        right: 0;
+        line-height: .5rem;
+        text-align: center;
+    }
+    
+    #main-text > h2 > span{
+        font-size: .6rem;
+    }
+
+
+    #main-text > button{
+        border: 0;
+        width: 50%;
+        height: 5%;
+        background-color: #007AFF;
+        color: white;
+        border-radius: 15px;
+        font-size: 1.1rem;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        cursor: pointer;
+        box-shadow: 3px 3px 10px #626262;
+        position: absolute;
+        left: 25%;
+        bottom: 10%;
+    }
+
+    #main-text > button:hover{
+        width: 55%;
+        font-size: 1.2rem;
+        transition: 0.1s;
+        left: 23%;
+    }
+
+    #arrow{
+        display: none;
+    }
+
+    #section-vantagens{
+        background-color: white;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 155vh;
+        border-radius: 20px;
+        justify-content: flex-start;
+        box-shadow: 3px 3px 10px #626262;
+    }
+
+    
+
+    #cards-div{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        gap: 25px;
+        margin-top: 0;
+    }
+
+
+
+
+
+
+
+    #section-detalhes{
+        height: 67vh;
+    }
+
+    #section-detalhes > div{
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+        align-items: center;
+    }
+
+    .foto-modelo{
+        width: 19rem;
+        border-radius: 15px;
+        cursor: pointer;
+        position: relative;
+        right: 0;
+        left: 0;
+        box-shadow: 3px 3px 10px #626262;
+    }
+
+
+
+    footer{
+        background-color: white;
+        display: flex;
+        justify-content: space-evenly;
+        gap: 0;
+        position: absolute;
+        left: 0;
+        right: 0;
+        height: 20vh;
+        align-items: center;
+        box-shadow: 3px 3px 10px #626262;
+    }
+    
+    footer > ul > a{
+        text-align: left;
+        font-size: .5rem;
+        display: block;
+    }
+
+    footer > ul{
+        padding-left: .5rem;
+    }
+    
+    footer > h4{
+        text-align: center;
+        font-size: .5rem;
+    }
+}
